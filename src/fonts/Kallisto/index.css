@@ -1,12 +1,12 @@
 @font-face {
     font-family: "kallisto";
-    src: url("./kallisto/Kallisto\ Thin.otf");
+    src: url("./Kallisto\ Thin.otf");
     font-weight: 100;
     font-style: normal;
 }
 @font-face {
     font-family: "kallisto";
-    src: url("./kallisto/Kallisto\ Thin\ Italic.otf");
+    src: url("./Kallisto\ Thin\ Italic.otf");
     font-weight: 100;
     font-style: italic;
 }
@@ -14,13 +14,13 @@
 /* -------------------------------------------------------- */
 @font-face {
     font-family: "kallisto";
-    src: url("./kallisto/Kallisto\ Light.otf");
+    src: url("./Kallisto\ Light.otf");
     font-weight: 200;
     font-style: normal;
 }
 @font-face {
     font-family: "kallisto";
-    src: url("./kallisto/Kallisto\ Light\ Italic.otf");
+    src: url("./Kallisto\ Light\ Italic.otf");
     font-weight: 200;
     font-style: italic;
 }
@@ -29,13 +29,13 @@
 
 @font-face {
     font-family: "kallisto";
-    src: url("./kallisto/Kallisto\ Medium.otf");
+    src: url("./Kallisto\ Medium.otf");
     font-weight: 400;
     font-style: normal;
 }
 @font-face {
     font-family: "kallisto";
-    src: url("./kallisto/Kallisto\ Medium\ Italic.otf");
+    src: url("./Kallisto\ Medium\ Italic.otf");
     font-weight: 400;
     font-style: italic;
 }
@@ -43,14 +43,14 @@
 
 @font-face {
     font-family: "kallisto";
-    src: url("./kallisto/Kallisto\ Bold.otf");
+    src: url("./Kallisto\ Bold.otf");
     font-weight: bold;
     font-style: normal;
 
 }
 @font-face {
     font-family: "kallisto";
-    src: url("./kallisto/Kallisto\ Bold\ Italic.otf");
+    src: url("./Kallisto\ Bold\ Italic.otf");
     font-weight: bold;
     font-style: italic;
 
@@ -59,13 +59,13 @@
 
 @font-face {
     font-family: "kallisto";
-    src: url("./kallisto/Kallisto\ Heavy.otf");
+    src: url("./Kallisto\ Heavy.otf");
     font-weight: 900;
     font-style: normal;
 }
 @font-face {
     font-family: "kallisto";
-    src: url("./kallisto/Kallisto\ Heavy\ Italic.otf");
+    src: url("./Kallisto\ Heavy\ Italic.otf");
     font-weight: 900;
     font-style: italic;
 }
