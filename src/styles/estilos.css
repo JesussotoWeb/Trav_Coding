@@ -1,3 +1,57 @@
+header{
+    display: flex;
+    background-color: #ffffff;
+    height: 85px;
+    align-items: center;
+    padding: 5px 5%;
+    justify-content: space-between;
+    
+
+}
+
+.uptext{
+    display: flex;
+    height: 40px;
+    background-color: #0081fe;
+    color: #fff;
+    align-items: center;
+    
+    padding: 5px 5%;
+    justify-content: space-between;
+}
+
+
+
+    
+
+li{
+    display: inline-block;
+    
+}
+
+.btn{
+    
+    color: #ffffff;
+    padding: 9px 25px;
+    background: #0081fe;
+    border: none;
+    font-family: "kallisto";
+    text-decoration: none;
+    height: 60px;
+    width: 180px;
+}
+
+.logo img{
+    height:23px ;
+    width: auto;
+    cursor: pointer;
+}
+
+
+nav a{
+
+    align-items: center;
+}
 
 .webmobile{
     width: 100%;
@@ -166,10 +220,56 @@ a:hover{
     text-decoration: none;
     border-radius: 10px;
     font-family: "kallisto";
-    position: absolute; top: 40%; left: 10% ;
+    position: absolute; top: 50%; left: 16% ;
 }
 
 .columna__paragraph{
     font-size: 16px;
 /* me fije que tiene el mismo estilo de letras(no se si es un estilo o es algo de js) y puse esta columna por el tamaño de las letras de las tarjetas ya que se veia pequeño,intente cambiarlo desde la clase columna pero no lo cambiaba  */
+}
+
+.seccionvideo{
+    
+    display: flex;
+    padding: 40px;
+    gap: 30px;
+}
+
+.numbers{
+    width: auto;
+    height: 250px;
+    display: flex;
+    background-color: #f9fafa;
+    justify-content: initial;
+    border:   #7c0e0e 1px;
+    
+    width: auto;
+    
+    
+    
+}
+
+.number{        
+    
+    height: 130px;
+    padding: 10px; background-color: #ffffff;    
+    gap: 10px; 
+    width: 280px;
+    background-color: solid #ffffff;
+    
+    margin: 10px;
+    border-radius: 10px;
+    align-content: space-around;
+    text-align: center;
+}
+
+.markernumber{
+    font-size: 50px;
+    align-items: center;
+    color: #0081fe;
+}
+
+.textnumber{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
