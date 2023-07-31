@@ -143,12 +143,33 @@ a:hover{
     justify-content: center;
 }
 .banner1__textBoxes{
-
+    text-align: center;   
 }
 .banner1__image{
 
 }
 .banner1__image img{
-    width: 400px;
+    width: 700px;
     height: auto;
+}
+
+
+.buttonbook{
+/* no pude centrar el texto del boton */
+    
+    border: 1px #0170b9;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    background-color:#0081fe;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 10px;
+    font-family: "kallisto";
+    position: absolute; top: 40%; left: 10% ;
+}
+
+.columna__paragraph{
+    font-size: 16px;
+/* me fije que tiene el mismo estilo de letras(no se si es un estilo o es algo de js) y puse esta columna por el tamaño de las letras de las tarjetas ya que se veia pequeño,intente cambiarlo desde la clase columna pero no lo cambiaba  */
 }

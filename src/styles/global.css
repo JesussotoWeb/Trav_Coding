@@ -4,14 +4,20 @@
     box-sizing: border-box;
 }
 
-h1, h2 {
+ h2 {
     font-family: "kallisto";
     font-weight: 600;
     font-size: 46px;
 }
+h1{
+    /* lo puse aparte ya que note que el h1 y el h2 no podian tener el mismo tamaño */
+    font-size: 60px;
+    font-weight: 600px;
+    font-family: "kallisto";
+}
 
 p, a, span, h3, li {
-    font-size: 16px;
+    font-size: 18px;
     font-family: "montserrat";
     list-style: none;
     text-decoration: none;
