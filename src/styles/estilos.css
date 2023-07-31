@@ -227,3 +227,49 @@ a:hover{
     font-size: 16px;
 /* me fije que tiene el mismo estilo de letras(no se si es un estilo o es algo de js) y puse esta columna por el tamaño de las letras de las tarjetas ya que se veia pequeño,intente cambiarlo desde la clase columna pero no lo cambiaba  */
 }
+
+.seccionvideo{
+    
+    display: flex;
+    padding: 40px;
+    gap: 30px;
+}
+
+.numbers{
+    width: auto;
+    height: 250px;
+    display: flex;
+    background-color: #f9fafa;
+    justify-content: initial;
+    border:   #7c0e0e 1px;
+    
+    width: auto;
+    
+    
+    
+}
+
+.number{        
+    
+    height: 130px;
+    padding: 10px; background-color: #ffffff;    
+    gap: 10px; 
+    width: 280px;
+    background-color: solid #ffffff;
+    
+    margin: 10px;
+    border-radius: 10px;
+    align-content: space-around;
+    text-align: center;
+}
+
+.markernumber{
+    font-size: 50px;
+    align-items: center;
+    color: #0081fe;
+}
+
+.textnumber{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
