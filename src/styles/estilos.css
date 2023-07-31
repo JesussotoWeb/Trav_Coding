@@ -1,3 +1,57 @@
+header{
+    display: flex;
+    background-color: #ffffff;
+    height: 85px;
+    align-items: center;
+    padding: 5px 5%;
+    justify-content: space-between;
+    
+
+}
+
+.uptext{
+    display: flex;
+    height: 40px;
+    background-color: #0081fe;
+    color: #fff;
+    align-items: center;
+    
+    padding: 5px 5%;
+    justify-content: space-between;
+}
+
+
+
+    
+
+li{
+    display: inline-block;
+    
+}
+
+.btn{
+    
+    color: #ffffff;
+    padding: 9px 25px;
+    background: #0081fe;
+    border: none;
+    font-family: "kallisto";
+    text-decoration: none;
+    height: 60px;
+    width: 180px;
+}
+
+.logo img{
+    height:23px ;
+    width: auto;
+    cursor: pointer;
+}
+
+
+nav a{
+
+    align-items: center;
+}
 
 .webmobile{
     width: 100%;
@@ -166,7 +220,7 @@ a:hover{
     text-decoration: none;
     border-radius: 10px;
     font-family: "kallisto";
-    position: absolute; top: 40%; left: 10% ;
+    position: absolute; top: 50%; left: 16% ;
 }
 
 .columna__paragraph{
