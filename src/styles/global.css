@@ -26,3 +26,20 @@ h3{
     font-size: 18px;
 
 }
+
+footer{
+    background-color: rgb(52, 0, 238);
+    height: 560px;
+    width: auto;
+    padding: 50px 20px;
+    color: #ffff;
+}
+
+a{
+    color: #ffff;
+}
+
+li{
+    margin: 9px;
+}
+
