@@ -24,9 +24,10 @@ header{
 
     
 
-li{
-    display: inline-block;
-    
+.poto{
+    display: flex;
+    width: 100%;
+    gap: 7px;
 }
 
 .btn{
@@ -198,6 +199,10 @@ a:hover{
 }
 .banner1__textBoxes{
     text-align: center;   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 .banner1__image{
 
@@ -209,8 +214,7 @@ a:hover{
 
 
 .buttonbook{
-/* no pude centrar el texto del boton */
-    
+
     border: 1px #0170b9;
     width: 150px;
     height: 50px;
@@ -220,7 +224,10 @@ a:hover{
     text-decoration: none;
     border-radius: 10px;
     font-family: "kallisto";
-    position: absolute; top: 50%; left: 16% ;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    margin-top: 50px;
 }
 
 .columna__paragraph{
@@ -273,3 +280,85 @@ a:hover{
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+.footerupzone{
+    padding: 40px 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logotext{
+    font-size: 40px;
+    cursor: pointer;
+    position: relative;
+    left: -100px;
+    font-family: "kallisto";
+}
+
+.emailzone{
+    position: relative;
+    left: -100px;
+    top: -20px;
+}
+
+.titulosfooter{
+    font-size: 30px;
+    font-family: "kallisto";
+    
+}
+
+.emailbox{
+    width: 390px;
+    height: 50px;
+    border-radius: 10px;
+    
+}
+
+.btonfooter{
+    font-family: "kallisto";
+    background-color: #0081fe ;
+    color: #fff;
+    width: 170px;
+    height: 50px;
+    position: relative;
+    right: -410px;
+    top: -36px;
+    border-radius: 10px;
+    padding: 14px 40px
+    
+    
+}
+
+.footerbox{
+    
+}
+
+.footer-down-text-li{
+    margin: 0;
+
+    color: #fff;
+}
+
+.listasfooter{
+    
+    gap: 40px;
+    width: 400px;
+    height: auto;
+    
+}
+
+.footerdownzone{
+    display: flex; 
+}
+
+.footerlists{
+    display: inline; 
+    
+}
+
+.endpage{
+    text-align: center;
+    margin: 30px;
+}
+
+
