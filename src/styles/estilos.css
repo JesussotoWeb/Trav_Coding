@@ -15,7 +15,7 @@ header{
     background-color: #0081fe;
     color: #fff;
     align-items: center;
-    
+    gap: 15%;
     padding: 5px 5%;
     justify-content: space-between;
 }
@@ -28,6 +28,10 @@ header{
     display: flex;
     width: 100%;
     gap: 7px;
+}
+
+.navlink{
+    color: #918e8f;
 }
 
 .btn{
@@ -205,7 +209,8 @@ a:hover{
     flex-direction: column;
 }
 .banner1__image{
-
+width: 90%;
+height: auto;
 }
 .banner1__image img{
     width: 700px;
@@ -297,7 +302,7 @@ a:hover{
 
 .emailzone{
     position: relative;
-    left: -100px;
+    left: 39px;
     top: -20px;
 }
 
@@ -320,9 +325,7 @@ a:hover{
     color: #fff;
     width: 170px;
     height: 50px;
-    position: relative;
-    right: -410px;
-    top: -36px;
+    margin: 15px;
     border-radius: 10px;
     padding: 14px 40px
     
@@ -362,3 +365,35 @@ a:hover{
 }
 
 
+.boton2{
+    border: 1px #0170b9;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    background-color: #0081fe;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 10px;
+    font-family: "kallisto";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+
+
+.links1{
+    width: 46%;
+    
+}
+
+.colortextlinks1{
+    color: #ffff;
+    
+}
+
+.text2{
+    display: flex;
+    flex-direction: column;
+}
